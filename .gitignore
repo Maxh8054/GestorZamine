@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+*.log
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Arquivos de build
+dist/
+build/
+*.map
+
+# Arquivos temporários
+*.tmp
+*.cache
+
+# Banco de dados (não versionar)
+demandas.db
+*.db
+*.sqlite3
+*.db-journal
+
+# Logs
+logs/
+*.log
+
+# Backups (não versionar)
+backups/
+*.db
+*.json
+*.sql
+
+# Ambiente (não versionar)
+.env
+.env.local
+.env.production
